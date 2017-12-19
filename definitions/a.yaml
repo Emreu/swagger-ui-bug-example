@@ -1,0 +1,7 @@
+A:
+  type: object
+  properties:
+    comments:
+      type: array
+      items:
+        $ref: 'comment.yaml#/Comment'

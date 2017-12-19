@@ -1,0 +1,7 @@
+B:
+  type: object
+  properties:
+    c:
+      type: array
+      items:
+        $ref: 'c.yaml#/C'

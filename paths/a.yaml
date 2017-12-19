@@ -1,0 +1,16 @@
+Create:
+  post:
+    summary: Create a
+    responses:
+      200:
+        description: Success
+        schema:
+          $ref: '../definitions/a.yaml#/A'
+Get:
+  get:
+    summary: Get a
+    responses:
+      200:
+        description: Success
+        schema:
+          $ref: '../definitions/a.yaml#/A'

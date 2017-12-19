@@ -1,0 +1,19 @@
+swagger: '2.0'
+info:
+  title: Some API
+  version: "1.0.0"
+host: api.example.com
+consumes:
+  - application/json
+produces:
+  - application/json
+paths:
+  /a:
+    $ref: 'paths/a.yaml#/Create'
+  /a/{aId}:
+    $ref: 'paths/a.yaml#/Get'
+  /b:
+    $ref: 'paths/b.yaml#/Create'
+  /b/{bId}:
+    $ref: 'paths/b.yaml#/Get'
+    
